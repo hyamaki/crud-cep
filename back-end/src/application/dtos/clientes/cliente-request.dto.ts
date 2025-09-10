@@ -1,0 +1,17 @@
+export interface ClienteRequestDTO {
+  ID?: number,
+  idUsuario: number,
+  Codigo: string,
+  Nome: string,
+  CPF_CNPJ: string,
+  CEP: number | null,
+  Logradouro: string,
+  Endereco: string,
+  Numero: string,
+  Bairro: string,
+  Cidade: string,
+  UF: string,
+  Fone: string,
+  LimiteCredito: number,
+  Validade: Date | null,
+}
